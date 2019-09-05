@@ -42,10 +42,58 @@ Plug 'octol/vim-cpp-enhanced-highlight'
 Plug 'tpope/vim-unimpaired'
 Plug 'ycm-core/YouCompleteMe'
 Plug 'Yggdroot/LeaderF'
+Plug 'itchyny/lightline.vim'
 " Initialize plugin system
 call plug#end()
 
 set tags=./.tags;,.tags
+
+" Universal switch start
+syntax on             " Enable syntax highlighting
+let python_highlight_all = 1
+"let python_no_builtin_highlight = 1
+"let python_no_doctest_code_highlight = 1
+"let python_no_doctest_highlight = 1
+"let python_no_exception_highlight = 1
+"let python_no_number_highlight = 1
+"let python_space_error_highlight = 1
+syntax on             " Enable syntax highlighting
+filetype on           " Enable filetype detection
+filetype indent on    " Enable filetype-specific indenting
+filetype plugin on    " Enable filetype-specific plugins
+compiler ruby         " Enable compiler support for ruby
+
+set autoindent
+set hlsearch
+set number
+set expandtab
+set nobackup
+set wrap
+"set autochdir
+set cursorcolumn
+set cursorline
+set tabstop=4 shiftwidth=4 softtabstop=4
+set expandtab
+"set list
+"set listchars=tab:,.,trail:.,extends:#,nbsp:. " Highlight problematic whitespace
+set laststatus=2
+"set linespace=0 " No extra spaces between rows"
+set wildmenu " show list instead of just completing
+set wildmode=list:longest,full " command <Tab> completion, list matches, then longest common part, then all.
+
+set encoding=utf-8
+set fileencodings=utf-8,gb2312,gb18030,gbk,ucs-bom,cp936,latin1
+set termencoding=utf-8
+set foldmethod=indent
+set foldlevel=99
+set history=50		" keep 50 lines of command line history
+set ruler		" show the cursor position all the time
+set showcmd		" display incomplete commands
+set incsearch		" do incremental searching
+
+" Universal switch end
+
+" Plug-in switch start 
 
 " gutentags 搜索工程目录的标志，碰到这些文件/目录名就停止向上一级目录递归
 let g:gutentags_project_root = ['.root', '.svn', '.git', '.hg', '.project']
@@ -140,3 +188,5 @@ let g:Lf_ShowRelativePath = 0
 let g:Lf_HideHelp = 1
 let g:Lf_StlColorscheme = 'powerline'
 let g:Lf_PreviewResult = {'Function':0, 'BufTag':0}
+
+" Plug-in switch end
