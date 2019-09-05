@@ -1,0 +1,6 @@
+# pack-refs with: peeled fully-peeled 
+932b8cb2f8e9816c9b5be82ada2e27564deb4d2e refs/remotes/origin/cscope-no-files
+eecb136fae97e30d5f01e71f0d3b775c8b017385 refs/remotes/origin/master
+5cd854cae201437915cc0228ca8422dd14d5c6ed refs/remotes/origin/my-develop
+3314afd44c0719f4feb6f0fee652a9f55094285f refs/remotes/origin/vim7
+0423321dc4fa80b41eaa41295b609186bb1eb5fb refs/tags/v1.0.0

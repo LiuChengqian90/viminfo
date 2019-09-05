@@ -1,0 +1,40 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	worktree = ../../../../third_party/ycmd
+[remote "origin"]
+	url = https://github.com/Valloric/ycmd
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+[submodule "third_party/bottle"]
+	url = https://github.com/defnull/bottle
+[submodule "third_party/cregex"]
+	url = https://github.com/ycm-core/regex.git
+[submodule "third_party/frozendict"]
+	url = https://github.com/slezica/python-frozendict
+[submodule "third_party/go/src/golang.org/x/tools"]
+	url = https://github.com/golang/tools
+[submodule "third_party/jedi"]
+	url = https://github.com/davidhalter/jedi
+[submodule "third_party/jedi_deps/numpydoc"]
+	url = https://github.com/numpy/numpydoc
+[submodule "third_party/parso"]
+	url = https://github.com/davidhalter/parso
+[submodule "third_party/python-future"]
+	url = https://github.com/PythonCharmers/python-future
+[submodule "third_party/certifi"]
+	url = https://github.com/certifi/python-certifi
+[submodule "third_party/chardet"]
+	url = https://github.com/chardet/chardet
+[submodule "third_party/idna"]
+	url = https://github.com/kjd/idna
+[submodule "third_party/requests"]
+	url = https://github.com/requests/requests
+[submodule "third_party/urllib3"]
+	url = https://github.com/urllib3/urllib3
+[submodule "third_party/waitress"]
+	url = https://github.com/Pylons/waitress

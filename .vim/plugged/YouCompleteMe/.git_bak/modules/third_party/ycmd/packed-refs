@@ -1,0 +1,7 @@
+# pack-refs with: peeled fully-peeled 
+1827ebee82fd41dac408ffe4c7b1e867ac72ee7c refs/remotes/origin/auto
+f20bf47f94be99afed2188c753dc8ae9fa41e245 refs/remotes/origin/azure-pipelines
+8f2c91d92065928d63c1a84d64d3837e02b88daf refs/remotes/origin/clang-format
+3365e2d44817d127596f59f70a6240507eb4b0bc refs/remotes/origin/master
+0346bbe1b21d39a034e94842e8b4a79c2abeb6a5 refs/remotes/origin/no-webhook
+ec9087b7ddcc9ca7f9bba4a75d39131646a4df07 refs/remotes/origin/try

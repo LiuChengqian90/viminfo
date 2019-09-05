@@ -1,0 +1,5 @@
+in .vim
+find . -name '.git' -exec sh -c 'x="{}"; mv "$x" "${x}_bak"' \;
+
+in .fzf
+mv .git .git_bak

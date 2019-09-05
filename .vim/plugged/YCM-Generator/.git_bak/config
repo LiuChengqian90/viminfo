@@ -1,0 +1,11 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = https://git::@github.com/rdnetto/YCM-Generator.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "stable"]
+	remote = origin
+	merge = refs/heads/stable

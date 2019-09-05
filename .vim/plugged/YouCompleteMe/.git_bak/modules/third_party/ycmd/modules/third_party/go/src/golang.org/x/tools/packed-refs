@@ -1,0 +1,22 @@
+# pack-refs with: peeled fully-peeled 
+be0da057c5e3c2df569a2c25cd280149b7d7e7d0 refs/remotes/origin/master
+e7e52e73e2735bea994c85b62483cc6376dd8d74 refs/remotes/origin/release-branch.go1.10
+e9f45831faab4562ce3f53f7196b67c08f948e86 refs/remotes/origin/release-branch.go1.11
+aa82965741a9fecd12b026fbb3d3c6ed3231b8f8 refs/remotes/origin/release-branch.go1.12
+65e3620a7ae7ac25e8494a60f0e5ef4e4fba03b3 refs/remotes/origin/release-branch.go1.13
+f8f91591b720f65816369d36e577b525d0926902 refs/remotes/origin/release-branch.go1.2
+b5e7da4a16c82e64159ccf8eda8babcecef44b88 refs/remotes/origin/release-branch.go1.3
+abf43428cc239218424c7a44dc9b5987cd351c3e refs/remotes/origin/release-branch.go1.4
+d02228d1857b9f49cd0252788516ff5584266eb6 refs/remotes/origin/release-branch.go1.5
+c887be1b2ebd11663d4bf2fbca508c449172339e refs/remotes/origin/release-branch.go1.6
+6220cba6419b2bf78aad19d85c347ecc0fda2b53 refs/remotes/origin/release-branch.go1.7
+3b2b05e9f5aeacb2e336feb4fb2a59f3955d75ee refs/remotes/origin/release-branch.go1.8
+5d2fd3ccab986d52112bf301d47a819783339d0e refs/remotes/origin/release-branch.go1.9
+8b969df5e2c792f5c1dec9f050f47a43a5ddc994 refs/tags/gopls/v0.1.0
+^d4e310b4a8a5f0fe33e0a7e813a14ff19b433da4
+0f333750496e11a0c45ae2995df8dea7750e44cc refs/tags/gopls/v0.1.1
+^86796bd73f73e873063b463d70f2ecd012635806
+8002bb0d793e3485337114ea9750d838e9664400 refs/tags/gopls/v0.1.2
+^831012c29e4263b1e52a997b731201ee7d86c76a
+470c9603e38e2c9997a85540514d71cd9b891163 refs/tags/gopls/v0.1.3
+^554846603d9bd6cd876d3c3f3ba31aa16384c78d
