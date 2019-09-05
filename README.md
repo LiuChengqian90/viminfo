@@ -286,6 +286,9 @@ $ ./install.py
 ```
 
 ```json
+ERROR: Python headers are missing in
+yum install -y python2-devel
+
 Your C++ compiler does NOT fully support C++11.
   
 $ which gcc
