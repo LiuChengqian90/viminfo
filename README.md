@@ -350,10 +350,6 @@ let g:Lf_PreviewResult = {'Function':0, 'BufTag':0}
 https://www.zhihu.com/question/47691414
 http://docs.ctags.io/en/latest/autotools.html
 
-
-
-
-
 源目录下文件
 
 ```shell
@@ -381,3 +377,6 @@ drwx------ 4 liuchengqian liuchengqian 4096 Sep  4 09:55 ..
 drwxrwxr-x 2 liuchengqian liuchengqian 4096 Sep  4 09:55 abrt
 ```
 
+文件拷贝
+cp source/* target/ -rf 
+cp source/.[^.]* target/ -rf
